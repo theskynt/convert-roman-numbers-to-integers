@@ -20,6 +20,10 @@ func TestRomanToInt(t *testing.T) {
 	})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8152bc6 ([2] should return 3 when input is III)
 	t.Run("should return 3 when input is III", func(t *testing.T) {
 		// Arrange
 		input := "III"
@@ -33,6 +37,7 @@ func TestRomanToInt(t *testing.T) {
 			t.Errorf("want %v , but got %v", want, got)
 		}
 	})
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 	t.Run("should return 4 when input is IV", func(t *testing.T) {
@@ -250,4 +255,6 @@ func TestRomanToInt(t *testing.T) {
 >>>>>>> 297b62f ([3] should return 1 when input is I)
 =======
 >>>>>>> 4e0780f ([3] should return 3 when input is III)
+=======
+>>>>>>> 8152bc6 ([2] should return 3 when input is III)
 }
