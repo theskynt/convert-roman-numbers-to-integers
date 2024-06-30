@@ -33,6 +33,7 @@ func TestRomanToInt(t *testing.T) {
 		}
 	})
 
+<<<<<<< HEAD
 	t.Run("should return 4 when input is IV", func(t *testing.T) {
 		// Arrange
 		input := "IV"
@@ -244,4 +245,6 @@ func TestRomanToInt(t *testing.T) {
 		}
 	})
 
+=======
+>>>>>>> 297b62f ([3] should return 1 when input is I)
 }
