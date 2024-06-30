@@ -232,18 +232,18 @@ func TestRomanToInt(t *testing.T) {
 		}
 	})
 
-	// t.Run("should return 100 when input is C", func(t *testing.T) {
-	// 	// Arrange
-	// 	input := "C"
-	// 	want := 100
+	t.Run("should return 100 when input is C", func(t *testing.T) {
+		// Arrange
+		input := "C"
+		want := 100
 
-	// 	// Act
-	// 	got := romanToInt(input)
+		// Act
+		got := romanToInt(input)
 
-	// 	// Assert
-	// 	if got != want {
-	// 		t.Errorf("want %v , but got %v", want, got)
-	// 	}
-	// })
+		// Assert
+		if got != want {
+			t.Errorf("want %v , but got %v", want, got)
+		}
+	})
 
 }
