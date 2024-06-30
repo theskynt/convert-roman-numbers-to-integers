@@ -91,19 +91,19 @@ func TestRomanToInt(t *testing.T) {
 		}
 	})
 
-	// t.Run("should return 10 when input is X", func(t *testing.T) {
-	// 	// Arrange
-	// 	input := "X"
-	// 	want := 10
+	t.Run("should return 10 when input is X", func(t *testing.T) {
+		// Arrange
+		input := "X"
+		want := 10
 
-	// 	// Act
-	// 	got := romanToInt(input)
+		// Act
+		got := romanToInt(input)
 
-	// 	// Assert
-	// 	if got != want {
-	// 		t.Errorf("want %v , but got %v", want, got)
-	// 	}
-	// })
+		// Assert
+		if got != want {
+			t.Errorf("want %v , but got %v", want, got)
+		}
+	})
 
 	// t.Run("should return 15 when input is XV", func(t *testing.T) {
 	// 	// Arrange
