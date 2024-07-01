@@ -116,4 +116,18 @@ func TestRomanToInt(t *testing.T) {
 			t.Errorf("want %v , but got %v", want, got)
 		}
 	})
+
+	t.Run("should return 19 when input is XIX", func(t *testing.T) {
+		// Arrange
+		input := "XIX"
+		want := 19
+
+		// Act
+		got := romanToInt(input)
+
+		// Assert
+		if got != want {
+			t.Errorf("want %v , but got %v", want, got)
+		}
+	})
 }
