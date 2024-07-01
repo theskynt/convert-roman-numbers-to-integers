@@ -12,7 +12,7 @@ func romanToInt(s string) int {
 	n := len(s)
 	total := romanMap[s[n-1]]
 
-	for i := n-2; i >= 0; i-- {
+	for i := n-2 ; i >= 0 ; i-- {
 		if romanMap[s[i]] < romanMap[s[i+1]]{
 			total -= romanMap[s[i]]
 		}else {
