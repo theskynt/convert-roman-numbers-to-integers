@@ -1,21 +1,5 @@
 package main
 
-func romanToInt(s string)int{
-	total := 0
-	n := len(s)
-
-	for i := 0; i < n; i++ {
-		value := romanValue(s[i])
-
-		if i < n-1 && value < romanValue(s[i+1]){
-			total -= value
-		}else{
-			total += value
-		}
-	}
-	return total
-}
-
 func romanValue(b byte)int{
 	if b == 'I'{
 		return 1
