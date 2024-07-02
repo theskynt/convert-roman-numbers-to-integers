@@ -1,10 +1,8 @@
 package main
 
-import "fmt"
-
 func romanToInt(s string)int{
-	n := len(s)
 	total := 0
+	n := len(s)
 
 	for i := 0; i < n; i++ {
 		value := romanValue(s[i])
@@ -19,7 +17,7 @@ func romanToInt(s string)int{
 }
 
 func romanValue(b byte)int{
-	if b == 'I' {
+	if b == 'I'{
 		return 1
 	}
 	if b == 'V' {
@@ -35,10 +33,4 @@ func romanValue(b byte)int{
 		return 100
 	}
 	return 0
-}
-
-func main() {
-	fmt.Println(romanToInt("XV")) // Output: 15
-	fmt.Println(romanToInt("IX")) // Output: 9
-	fmt.Println(romanToInt("XC")) // Output: 90
 }
