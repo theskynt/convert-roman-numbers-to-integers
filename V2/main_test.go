@@ -16,6 +16,7 @@ func TestRomanToInt(t *testing.T) {
 		{"X", 10},
 		{"XV", 15},
 		{"XXX", 30},
+		{"L", 50},
 	}
 
 	for _, tt := range tests {
